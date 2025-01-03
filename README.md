@@ -190,7 +190,8 @@ Eksplorasi dan Analisa Data
 --
 4.1 Eksploratory Data Analysis
 Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai distribusi data.
-![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/Assets/Distribusi_data.png)
+![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets/Distribusi_data.png)
+
 
 
 4.2 Menjawab Rumusan Masalah
