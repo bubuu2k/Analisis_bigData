@@ -9,12 +9,13 @@ Link Colab :[Click Here](https://colab.research.google.com/drive/1AbCdEfGhIjKlMn
 DAFTAR ISI 
 ----------------------
 
-1. Pendahuluan
-2. Package Yang diperlukan
-3. Data preparation
-4. Eksplorasi dan Analisis Data
-5. Kesimpulan
+- [Pendahuluan](#pendahuluan)
+- [Package yang Diperlukan](#package-yang-diperlukan)
+- [Data Preparation](#data-preparation)
+- [Eksplorasi dan Analisa Data](#eksplorasi-dan-analisa-data)
+- [Kesimpulan](#kesimpulan)
 
+---
 
 
 Pendahuluan
