@@ -192,10 +192,86 @@ Eksplorasi dan Analisa Data
 Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai distribusi data.
 ![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets/Distribusi_data.png)
 
+**Distribusi Energy (kiri atas):**
+
+1. **Bentuk**: Distribusi hampir normal dengan sedikit kemiringan ke kiri.
+2. **Rentang**: 0-1 (ternormalisasi).
+3. **Puncak**: Terletak di sekitar 0.7-0.8, menunjukkan bahwa sebagian besar lagu memiliki tingkat energi tinggi.
+4. **Interpretasi**: Sebagian besar lagu dalam dataset memiliki karakteristik energik, sesuai dengan kecenderungan pendengar musik streaming.
+
+**Distribusi Loudness (kanan atas):**
+
+1. **Bentuk**: Distribusi hampir normal dengan ekor panjang di sisi kiri.
+2. **Rentang**: -40 dB hingga 0 dB.
+3. **Puncak**: Sekitar -5 dB hingga -7 dB.
+4. **Interpretasi**: Mayoritas lagu memiliki loudness standar, dengan beberapa outlier yang sangat pelan.
+
+**Distribusi Acousticness (kiri bawah):**
+
+1. **Bentuk**: Cenderung sangat skewed ke kanan.
+2. **Rentang**: 0-1 (ternormalisasi).
+3. **Dominasi**: Nilai rendah (0-0.2).
+4. **Interpretasi**: Mayoritas lagu tidak akustik, mencerminkan dominasi musik modern yang diproduksi secara digital.
+
+**Distribusi Tahun (kanan bawah):**
+
+1. **Bentuk**: Sangat skewed ke kanan dengan lonjakan tajam pada tahun-tahun terbaru.
+2. **Rentang**: 1960-2020.
+3. **Puncak**: Terletak antara 2015-2020.
+4. **Interpretasi**: Dataset lebih banyak berisi lagu-lagu baru, mencerminkan dominasi musik kontemporer dan pertumbuhan pesat konten digital di era streaming.
+
+**Insight Utama:**
+
+1. Dataset mencerminkan kecenderungan terhadap lagu yang enerjik (energi tinggi), modern (akustik rendah), dan kontemporer (tahun rilis baru).
+2. Loudness lebih terstandarisasi, menunjukkan adanya normalisasi volume dalam produksi musik.
+3. Dominasi lagu non-akustik menggambarkan tren dalam produksi musik digital.
+4. Distribusi temporal cenderung tidak merata, dengan fokus lebih pada musik era streaming.
+
 
 
 4.2 Menjawab Rumusan Masalah
+1. Bagaimana hubungan antara tingkat energi lagu dan loudness di berbagai genre musik di Spotify, serta apakah pola ini tetap sama di seluruh genre?
+   Hubungan antara energi dan loudness (0-1)
+   | Playlist_genre    | Correlation_score           |
+   |----------|---------------------------|
+   | edm      | 0.638214                  |
+   | latin    | 0.587487                  |
+   | pop      | 0.673739                  |
+   | r&b      | 0.602092                  |
+   | rap      | 0.723875                  |
+   | rock     | 0.749934                  |
 
+   **EDM (0.638):**
+
+1. Hubungan antara energi dan loudness cukup kuat dan positif.
+2. Lagu EDM yang lebih energik cenderung memiliki volume lebih tinggi, sesuai dengan sifat genre yang sering digunakan dalam pesta atau klub.
+
+**Latin (0.587):**
+
+1. Korelasi positif yang signifikan menunjukkan bahwa lagu latin dengan energi tinggi juga cenderung memiliki volume yang lebih besar.
+2. Ini mencerminkan ritme dan energi khas yang ada dalam musik latin.
+
+**Pop (0.674):**
+
+1. Korelasi positif yang kuat menunjukkan bahwa lagu pop yang lebih enerjik memiliki loudness yang lebih tinggi.
+2. Genre pop cenderung diproduksi untuk menarik perhatian, dengan fokus pada elemen yang dinamis dan menarik.
+
+**R&B (0.602):**
+
+1. Korelasi positif ini menunjukkan hubungan yang cukup kuat antara tingkat energi dan loudness dalam musik R&B.
+2. Lagu R&B yang lebih energik biasanya diproduksi dengan loudness lebih tinggi untuk menonjolkan dinamika dan emosi.
+
+**Rap (0.724):**
+
+1. Rap memiliki korelasi tinggi antara energi dan loudness, dengan lagu yang lebih energik cenderung lebih keras.
+2. Ini sesuai dengan produksi rap yang sering menonjolkan vokal kuat dan beat yang tegas.
+
+**Rock (0.750):**
+
+1. Rock memiliki korelasi tertinggi, menunjukkan hubungan yang sangat kuat antara energi dan loudness.
+2. Musik rock sering menggunakan volume tinggi untuk menciptakan intensitas dan daya tarik emosional, mencerminkan karakter pemberontakan dan semangat dalam genre ini.
+   
+3. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
 kesimpulan 
 --
 5.1 Summary Table
