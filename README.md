@@ -274,7 +274,7 @@ Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai 
 Visualisasi
 Berikut merupakan visualisasi dari korelasi antara energy dan loudness.
 1. Energy vs Loudness oleh Genre (all)
-   ![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Assets_new/Energy_vs_Loudness_dari_Genre.png)
+   ![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Assets_new/Energy_vs_Loudness_dari_Genre.png)
 2. Energy vs Loudness oleh Genre (each)
 
    
