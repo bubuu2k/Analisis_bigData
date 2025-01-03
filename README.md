@@ -270,9 +270,18 @@ Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai 
 
 1. Rock memiliki korelasi tertinggi, menunjukkan hubungan yang sangat kuat antara energi dan loudness.
 2. Musik rock sering menggunakan volume tinggi untuk menciptakan intensitas dan daya tarik emosional, mencerminkan karakter pemberontakan dan semangat dalam genre ini.
+
+Visualisasi
+Berikut merupakan visualisasi dari korelasi antara energy dan loudness.
+1. Energy vs Loudness oleh Genre (all)
+   ![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets/Energy vs Loudness oleh Genre.png)
+2. Energy vs Loudness oleh Genre (each)
+
    
-3. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
-kesimpulan 
+2. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
+kesimpulan
+
+
 --
 5.1 Summary Table
 5.2 Final Consolidated Results
