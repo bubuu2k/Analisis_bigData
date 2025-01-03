@@ -94,7 +94,6 @@ Selanjutnya, instalasi beberapa library pyton juga diperlukan. Kamu dapat melaku
 **Data Preparation**
 --
 **3.1 Sumber Data**
-![Image Description](https://camo.githubusercontent.com/77e4a074311b53e10682a43b1385ca71ca7701136dcd9817602be08ff50c2ffe/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313439353433343934323231342d3962353235626261373465393f69786c69623d72622d312e322e3126697869643d65794a6863484266615751694f6a45794d446439266175746f3d666f726d6174266669743d63726f7026773d3133353026713d3830)
 Data dalam penelitian ini bersumber dari Github [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-01-21/readme.md).
 
 **3.2 Spesifikasi Data**
@@ -146,9 +145,52 @@ Teknik data cleaning yang diterapkan adalah sebagai berikut.
 
 **3.4 Data Cleaned Information**
 
+Setelah melakukan proses data cleaning, maka data yang akan di analisis pun sudah siap. Berikut ringkasan awal dari data yang sudah di bersihkan.
+**Jumlah Data (Count):**
+
+1. Terdapat 32,828 lagu yang dianalisis.
+2. Semua variabel (energy, loudness, acousticness) memiliki jumlah data yang konsisten.
+3. Tidak ada data yang hilang, karena jumlahnya identik antara Before dan After.
+
+**Energy:**
+
+1. Rata-rata (Mean): 0.698603, yang menunjukkan bahwa sebagian besar lagu memiliki tingkat energi yang tinggi (skala 0-1).
+2. Standar deviasi (Std): 0.180916, menandakan variasi energi yang relatif kecil.
+3. Rentang (Min-Max): 0.000175 hingga 1.000000, menggambarkan spektrum dari lagu yang sangat tenang hingga sangat energik.
+4. Median (50%): 0.721000, sedikit lebih tinggi dari rata-rata, mengindikasikan distribusi yang cenderung miring ke kiri.
+
+**Loudness:**
+
+1. Rata-rata (Mean): -6.719529 dB, menggambarkan tingkat volume rata-rata lagu.
+2. Standar deviasi (Std): 2.988641, menunjukkan variasi yang cukup besar dalam loudness.
+3. Minimum: -46.448000 dB (sangat pelan).
+4. Maksimum: 1.275000 dB (sangat keras).
+5. Median: -6.166000 dB, yang dekat dengan rata-rata, menunjukkan distribusi yang simetris.
+
+**Acousticness:**
+
+1. Rata-rata (Mean): 0.175352, yang mengindikasikan sebagian besar lagu cenderung non-akustik.
+2. Standar deviasi (Std): 0.219644, menunjukkan variasi tingkat akustik yang sedang.
+3. Rentang (Min-Max): 0.000000 hingga 0.994000, dari lagu yang sepenuhnya elektronik hingga hampir sepenuhnya akustik.
+4. Distribusi cenderung miring ke kanan (mean > median 0.080400).
+
+**Distribusi Data:**
+
+1. Energy: Terpusat di rentang tinggi (75% data memiliki nilai > 0.581000).
+2. Loudness: Terdistribusi secara normal dengan beberapa outlier yang sangat pelan.
+3. Acousticness: Sebagian besar lagu memiliki nilai rendah, dengan beberapa lagu yang sangat akustik.
+
+**Kesimpulan Utama:**
+
+1. Sebagian besar lagu di Spotify memiliki tingkat energi yang tinggi (mean energy 0.69).
+2. Loudness terdistribusi normal dengan variasi yang cukup.
+3. Sebagian besar lagu cenderung non-akustik (75% lagu memiliki acousticness < 0.255000).
+
 Eksplorasi dan Analisa Data
 --
 4.1 Eksploratory Data Analysis
+Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai distribusi data.
+
 4.2 Menjawab Rumusan Masalah
 
 kesimpulan 
