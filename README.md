@@ -128,21 +128,20 @@ berikut adalah tabel yang ada di data spotify :
 | double   | tempo                     |
 | double   | duration_ms               |
 
+Data Uniqueness : Terdapat beberapa data kosong di kolom `track_album_release_date`
 
-
-Data Uniqueness : Terdapat beberapa data kosong di kolom 'track_album_release_date'
 
 
    
 **3.3 Data Cleaning **
 
-Pertama data di load menggunakan library pandas 'name_file.read_csv' untuk membaca file csv dari data spotify.
+Pertama data di load menggunakan library pandas `name_file.read_csv` untuk membaca file csv dari data spotify.
 
 Teknik data cleaning yang diterapkan adalah sebagai berikut.
 
 * Pengecekan Data Duplikat: Proses ini berguna untuk memastikan tidak ada entri yang terulang, yang dapat mempengaruhi keakuratan analisis baik dalam statistik deskriptif maupun visualisasi.
 *Pengecekan Data Null: Langkah ini penting untuk mengidentifikasi dan menghapus data yang memiliki nilai kosong, guna menghindari ketidakpastian dalam analisis.
-* Ekstraksi Tahun: Tahapan ini digunakan untuk mengambil informasi tahun dari kolom 'track_album_release_date', yang nantinya akan dimanfaatkan untuk analisis tren.
+* Ekstraksi Tahun: Tahapan ini digunakan untuk mengambil informasi tahun dari kolom `track_album_release_date`, yang nantinya akan dimanfaatkan untuk analisis tren.
 
 
 **3.4 Data Cleaned Information**
