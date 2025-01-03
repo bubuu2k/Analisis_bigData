@@ -30,6 +30,24 @@ Pendahuluan
 Package yang diperlukan
 --
 2.1 Python
-2.2 -
-  ```bash
-  pip install pandas
+
+2.2 Menghilangkan pesan dan peringatan instalasi
+
+
+Data Preparation
+--
+3.1 Sumber Data
+3.2 Spesifikasi Data
+3.3 Data Cleaning 
+3.4 Data Cleaned Information
+
+Eksplorasi dan Analisa Data
+--
+4.1 Eksploratory Data Analysis
+4.2 Menjawab Rumusan Masalah
+
+kesimpulan 
+--
+5.1 Summary Table
+5.2 Final Consolidated Results
+5.3 Kesimpulan Rumusan Masalah
