@@ -42,7 +42,7 @@ Solusi dalam penelitian ini difokuskan untuk menjawab rumusan masalah yang telah
    
 **1.3 Teknik Analisis Yang diusulkan**
 
-Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:  
+Dalam mencari solusi, saya menerapkan beberapa teknik analisis berikut:  
 
 1. Pembersihan data dan ringkasan awal untuk memahami struktur dan konten dataset.  
 2. Analisis statistik deskriptif guna mengidentifikasi pola dan tren utama.  
@@ -50,7 +50,7 @@ Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:
    
 **1.4 Manfaat Analisis**
 
-Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:  
+Dalam mencari solusi, saya  menerapkan beberapa teknik analisis berikut:  
 
 1. Pembersihan data dan ringkasan awal untuk memahami struktur dan konten dataset.  
 2. Analisis statistik deskriptif guna mengidentifikasi pola dan tren utama.  
@@ -59,7 +59,12 @@ Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:
 
 **Package yang diperlukan**
 --
+
 **2.1 Python**
+
+Sebelum melakukan penelitian ini, instalasi python pada environment local yang diperlukan. Python yang digunakan pada penelitian ini adalah python 3.10. Untuk mempelajarinya lebih lanjut, tekan [click here](https://www.python.org/downloads/release/python-3100/).
+
+Selanjutnya, instalasi beberapa library pyton juga diperlukan. Kamu dapat melakukan instalasi library pada terminal python menggunakan [pip]. Tiap library ini yaitu sebagai berikut :
 
 **2.2 Menghilangkan pesan dan peringatan instalasi**
 
