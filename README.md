@@ -64,7 +64,31 @@ Dalam mencari solusi, saya  menerapkan beberapa teknik analisis berikut:
 
 Sebelum melakukan penelitian ini, instalasi python pada environment local yang diperlukan. Python yang digunakan pada penelitian ini adalah python 3.10. Untuk mempelajarinya lebih lanjut, tekan [click here](https://www.python.org/downloads/release/python-3100/).
 
-Selanjutnya, instalasi beberapa library pyton juga diperlukan. Kamu dapat melakukan instalasi library pada terminal python menggunakan [pip]. Tiap library ini yaitu sebagai berikut :
+Selanjutnya, instalasi beberapa library pyton juga diperlukan. Kamu dapat melakukan instalasi library pada terminal python menggunakan 'pip'. Library ini yaitu sebagai berikut :
+- **Pandas - Latest**
+  ```bash
+  pip install pandas
+
+- **Numpy - Latest**
+  ```bash
+  pip install numpy
+
+- **matplotlib - Latest**
+  ```bash
+  pip install matplotlib
+
+- **seaborn - Latest**
+  ```bash
+  pip install seaborn
+
+- **scipy - Latest**
+  ```bash
+  pip install scipy
+
+
+- **sklearn - Latest**
+  ```bash
+  pip install sklearn
 
 **2.2 Menghilangkan pesan dan peringatan instalasi**
 
