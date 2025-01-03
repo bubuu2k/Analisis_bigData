@@ -274,15 +274,13 @@ Setelah melakukan eksplorasi dataset, maka ditemukan informasi penting mengenai 
 Visualisasi
 Berikut merupakan visualisasi dari korelasi antara energy dan loudness.
 1. Energy vs Loudness oleh Genre (all)
-   ![Distribusi Data](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Loudness_dari_Genre.png)
+   ![Energy_vs_Loudness_dari_Genre](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Loudness_dari_Genre.png)
 
 
 2. Energy vs Loudness oleh Genre (each)
-
-   
+   ![Energy_vs_Loudness_dari_Genre](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Loudness_dari_Genre2.png)
 2. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
 kesimpulan
-
 
 --
 5.1 Summary Table
