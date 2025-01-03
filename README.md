@@ -341,21 +341,26 @@ Regresion Result:
 
    
 2. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
-   Correlation by year:
-   | Correlation_score    | Year                  |
-|----------|---------------------------|
-| -1.000000| 1957                  |
-| Nan| 1958                |
-| Nan| 1959              |
-| 0.780188   | 1960          |
-| Nan| 1961            |
-| Nan| 1962          |
-| ......| ...  |
-| -0.546348| 2016             |
-| -0.546348| 2017               |
-| -0.587997| 2018            |
-| -0.545316| 2019         |
-| -0.580525  | 2020              |
+  ## Correlation by Year
+
+Berikut adalah korelasi antara energi dan acousticness berdasarkan tahun:
+
+| **Correlation Score** | **Year** |
+|-----------------------|----------|
+| -1.000000             | 1957     |
+| Nan                   | 1958     |
+| Nan                   | 1959     |
+| 0.780188              | 1960     |
+| Nan                   | 1961     |
+| Nan                   | 1962     |
+| ...                   | ...      |
+| -0.546348             | 2016     |
+| -0.546348             | 2017     |
+| -0.587997             | 2018     |
+| -0.545316             | 2019     |
+| -0.580525             | 2020     |
+
+
 **Era Awal (1957-1962):**
 
 1.   Pada tahun 1957, korelasi antara energi dan tingkat akustik adalah -1.000, yang menunjukkan hubungan negatif yang sempurna. Ini berarti semakin tinggi energi, semakin rendah penggunaan instrumen akustik, dan sebaliknya.
@@ -390,8 +395,11 @@ Regresion Result:
 2.   Menunjukkan adanya pergeseran dalam cara musik diproduksi, dari akustik menuju lebih banyak produksi elektronik.
 3.   Memberikan wawasan tentang tren dan standarisasi dalam produksi musik modern.
 
-Regression with Year Control:
-|Cross-Validation_Score||0.182 (+/- 0.209)|
+## Regression with Year Control
+
+| Cross-Validation Score | 0.182 (+/- 0.209) |
+|----------------------------|-----------|
+
 **Skor Rata-rata Cross-validation**: Hasil rata-rata cross-validation sebesar 0.182 menunjukkan bahwa model regresi linier dapat menjelaskan sekitar 18.2% variasi energi lagu berdasarkan acousticness dan tahun. Ini menunjukkan adanya hubungan, namun kontribusinya terhadap energi masih relatif kecil.
 
 **Deviasi Standar Cross-validation**: Deviasi standar sebesar ±0.209 mengindikasikan adanya variasi yang cukup besar dalam performa model di setiap fold. Hal ini mengindikasikan bahwa model tidak sepenuhnya stabil, kemungkinan disebabkan oleh ketidakseragaman data antar fold.
