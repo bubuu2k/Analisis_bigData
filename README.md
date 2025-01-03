@@ -279,7 +279,123 @@ Berikut merupakan visualisasi dari korelasi antara energy dan loudness.
 
 2. Energy vs Loudness oleh Genre (each)
    ![Energy_vs_Loudness_dari_Genre](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Loudness_dari_Genre2.png)
+   **Hubungan Umum:**
+
+1. Terdapat korelasi positif yang signifikan antara tingkat energi dan loudness.
+2. Lagu dengan energi tinggi cenderung memiliki loudness yang lebih besar (mendekati 0 dB).
+3. Pola ini terlihat konsisten di seluruh genre musik yang dianalisis.
+
+**Analisis per Genre:**
+
+1. **EDM**: Terkonsentrasi pada energi dan loudness tinggi (0.8-1.0 untuk energy dan lebih dari -5 dB untuk loudness).
+2. **Rock**: Distribusinya mirip dengan EDM, menunjukkan bahwa rock cenderung memiliki energi dan loudness tinggi.
+3. **Pop**: Sebarannya merata pada rentang energi menengah hingga tinggi (0.4-0.9).
+4. **Rap**: Cenderung memiliki loudness yang tinggi meskipun energi lagu berada pada rentang menengah.
+5. **Latin**: Memiliki variasi yang luas antara energi dan loudness.
+6. **R&B**: Lebih terkonsentrasi pada rentang energi menengah (0.4-0.8).
+
+**Implikasi:**
+
+1. Karakteristik audio lagu dipengaruhi oleh genre musiknya.
+2. Produsen musik sering mengikuti standar produksi khas untuk setiap genre.
+3. Ada tumpang tindih yang signifikan antar genre pada rentang energi dan loudness tertentu.
+
+Regresion Result: 
+   | Score    | Regression Result           |
+   |----------|---------------------------|
+   | 0.458       | R-Squared              |
+   | 11.178    | Coefficient                  |
+   | -14.529      | Intercept                  |
+
+   **R-squared: 0.458**
+
+1.   Nilai R-squared sebesar 0.458 berarti 45.8% dari variasi loudness dapat dijelaskan oleh variasi energi pada lagu.
+2.   Hal ini menunjukkan bahwa energi berperan penting dalam menentukan seberapa keras sebuah lagu.
+
+**Koefisien: 11.178**
+
+1.   Koefisien regresi sebesar 11.178 menunjukkan bahwa setiap peningkatan satu unit energi akan mengarah pada peningkatan loudness rata-rata sebesar 11.178 unit.
+2.   Ini menunjukkan hubungan positif yang signifikan antara energi dan loudness, dimana lagu dengan energi lebih tinggi cenderung lebih keras.
+
+**Intercept: -14.529**
+
+1.   Intersep sebesar -14.529 mengindikasikan nilai loudness saat energi bernilai nol.
+2.   Meskipun nilai intersep ini dapat dihitung, dalam kenyataannya, energi nol pada lagu tidak mungkin terjadi, sehingga interpretasinya lebih bersifat teoritis.
+
+#Anova
+   Analisis ANOVA digunakan untuk mengevaluasi apakah terdapat perbedaan signifikan dalam tingkat energi (energy) antara genre musik yang berbeda (playlist_genre).
+    | Score    | ANOVA Result         |
+   |----------|---------------------------|
+   | 1045.987       | F-statistic             |
+   | 0.00    | P-value                 |
+
+   Analisis ANOVA dilakukan untuk menguji apakah terdapat perbedaan yang signifikan dalam tingkat energi (energy) di antara berbagai genre musik (playlist_genre).
+
+**F-statistic: 1045.987 p-value: 0.000**
+
+1.   Nilai F-statistik yang sangat besar (1045.987) menunjukkan adanya perbedaan yang signifikan antara rata-rata tingkat energi antar genre.
+2.   Semakin tinggi nilai F-statistik, semakin besar perbedaan antar kelompok dibandingkan dengan variasi dalam kelompok tersebut.
+3.   Nilai p-value yang sangat kecil (p < 0.001) menunjukkan bahwa hasil uji ini sangat signifikan secara statistik.
+4.   Dengan demikian, kita dapat menolak hipotesis nol (H0) yang menyatakan bahwa tidak ada perbedaan dalam rata-rata tingkat energi antar genre.
+5.   Secara keseluruhan, ini mengindikasikan bahwa terdapat perbedaan signifikan dalam tingkat energi di antara genre musik yang berbeda.
+
+   
 2. Sejauh mana pengaruh penggunaan instrumen akustik mempengaruhi tingkat energi sebuah lagu, dan bagaimana perbedaan pengaruh tersebut berdasarkan periode atau tahun rilis musik?
+   Correlation by year:
+   | Correlation_score    | Year                  |
+|----------|---------------------------|
+| -1.000000| 1957                  |
+| Nan| 1958                |
+| Nan| 1959              |
+| 0.780188   | 1960          |
+| Nan| 1961            |
+| Nan| 1962          |
+| ......| ...  |
+| -0.546348| 2016             |
+| -0.546348| 2017               |
+| -0.587997| 2018            |
+| -0.545316| 2019         |
+| -0.580525  | 2020              |
+**Era Awal (1957-1962):**
+
+1.   Pada tahun 1957, korelasi antara energi dan tingkat akustik adalah -1.000, yang menunjukkan hubungan negatif yang sempurna. Ini berarti semakin tinggi energi, semakin rendah penggunaan instrumen akustik, dan sebaliknya.
+2.   Pada tahun 1958 dan beberapa tahun lainnya, terdapat nilai NaN. Hal ini kemungkinan disebabkan oleh jumlah data yang sangat sedikit atau bahkan tidak ada data yang dapat dihitung untuk korelasi.
+
+**Era Modern (2016-2020):**
+
+1.   Hubungan negatif antara energi dan akustik masih terlihat, dengan nilai korelasi antara -0.522 hingga -0.580. Ini menunjukkan bahwa hubungan negatif antara kedua variabel ini tetap ada di era modern.
+2.   Pada tahun 2020, korelasi negatif tercatat cukup signifikan (-0.580), yang mengindikasikan bahwa lagu-lagu dengan elemen akustik cenderung memiliki energi lebih rendah dibandingkan dengan lagu-lagu yang didominasi elemen elektronik.
+
+   **Visualisasi**
+   1. Energy vs acousticness oleh year (all)
+        ![Energy_vs_acousticness_dari_Year](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year.png)
+   2. Energy vs acousticness oleh year (each)
+      ![Energy_vs_acousticness_dari_Year2](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year2.png)
+      **Relasi Umum:**
+
+1.   Ditemukan korelasi negatif yang signifikan antara tingkat energi dan tingkat akustik suatu lagu.
+2.   Ketika nilai acousticness meningkat, energi lagu cenderung menurun, dan sebaliknya.
+3.   Pola ini dapat diamati secara konsisten pada berbagai rentang tahun (1965-2010).
+
+**Pola Berdasarkan Periode:**
+
+1.   Lagu-lagu dari periode 2010-an (kuning) lebih cenderung berada di area dengan energi tinggi dan akustik rendah.
+2.   Lagu-lagu dari periode 1965-1980 (biru tua) tersebar lebih merata di seluruh rentang energi dan akustik.
+3.   Tahun 1995 (cyan) menunjukkan transisi dari musik dengan elemen akustik ke dominasi musik digital.
+4.   Terdapat perubahan bertahap dalam warna yang mencerminkan perubahan dalam gaya dan produksi musik dari waktu ke waktu.
+
+**Kontribusi terhadap Penelitian:**
+
+1.   Mendukung RQ2 mengenai bagaimana karakteristik musik telah berkembang seiring berjalannya waktu.
+2.   Menunjukkan adanya pergeseran dalam cara musik diproduksi, dari akustik menuju lebih banyak produksi elektronik.
+3.   Memberikan wawasan tentang tren dan standarisasi dalam produksi musik modern.
+
+Regression with Year Control:
+|Cross-Validation_Score||0.182 (+/- 0.209)|
+**Skor Rata-rata Cross-validation**: Hasil rata-rata cross-validation sebesar 0.182 menunjukkan bahwa model regresi linier dapat menjelaskan sekitar 18.2% variasi energi lagu berdasarkan acousticness dan tahun. Ini menunjukkan adanya hubungan, namun kontribusinya terhadap energi masih relatif kecil.
+
+**Deviasi Standar Cross-validation**: Deviasi standar sebesar ±0.209 mengindikasikan adanya variasi yang cukup besar dalam performa model di setiap fold. Hal ini mengindikasikan bahwa model tidak sepenuhnya stabil, kemungkinan disebabkan oleh ketidakseragaman data antar fold.
+
 kesimpulan
 
 --
