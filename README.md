@@ -100,8 +100,47 @@ Data dalam penelitian ini bersumber dari Github [TidyTuesday](https://github.com
 **3.2 Spesifikasi Data
 1. Tujuan Awal Data : Data ini dikhususkan untuk analisis metada lagu di platform spotify. Data ini dikumpulkan pada '21 Januari 2020' oleh [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-01-21/readme.md).
 2. Jumlah Variabel : Dataset ini mencakup 23 variabel yang berisi fitur audio, metadata, dan popularitas lagu.
+
+berikut adalah tabel yang ada di data spotify : 
+| Class | Variable | 
+|----------|----------|
+|character||track_id|
+|character||track_name |
+|character||track_artist|
+|double||track_popularity|
+|character||track_album_id|
+|character||track_album_name|
+|character||track_album_release_date|
+|character||playlist_name|
+|character||playlist_id|
+|character||playlist_genre	|
+|character||playlist_subgenre|
+|double||danceability|
+|double||energy|
+|double||key|
+|double||loudness|
+|double||mode|
+|double||speechiness|
+|double||acousticness|
+|double||instrumentalness|
+|double||liveness|
+|double||valence|
+|double||tempo|
+|double||duration_ms|
+
+Data Uniqueness : Terdapat beberapa data kosong di kolom 'track_album_release_date'
    
 **3.3 Data Cleaning **
+
+Pertama data di load menggunakan library pandas 'name_file.read_csv' untuk membaca file csv dari data spotify.
+
+Teknik data cleaning yang diterapkan adalah sebagai berikut.
+
+* Pengecekan Data Duplikat: Proses ini berguna untuk memastikan tidak ada entri yang terulang, yang dapat mempengaruhi keakuratan analisis baik dalam statistik deskriptif maupun visualisasi.
+*Pengecekan Data Null: Langkah ini penting untuk mengidentifikasi dan menghapus data yang memiliki nilai kosong, guna menghindari ketidakpastian dalam analisis.
+* Ekstraksi Tahun: Tahapan ini digunakan untuk mengambil informasi tahun dari kolom 'track_album_release_date', yang nantinya akan dimanfaatkan untuk analisis tren.
+
+
 **3.4 Data Cleaned Information**
 
 Eksplorasi dan Analisa Data
