@@ -376,12 +376,14 @@ Berikut adalah korelasi antara energi dan acousticness berdasarkan tahun:
 1. **Energy vs Acousticness (Overall by Year)**  
    Berikut adalah visualisasi hubungan antara energy dan acousticness untuk semua tahun:
 
-   ![Energy_vs_acousticness_dari_Year](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year.png)
+   ![Energy_vs_Acousticness_oleh_Year](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Acousticness_oleh_Year.png)
 
-2. **Energy vs Acousticness (Each Year)**  
+
+2. **Energy vs Acousticness by Year (Each Year)**  
    Berikut adalah visualisasi hubungan antara energy dan acousticness untuk setiap tahun:
 
-   ![Energy_vs_acousticness_dari_Year2](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year2.png)
+   ![Energy_vs_Acousticness_oleh_Year2](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_Acousticness_oleh_Year2.png)
+
 
       
       **Relasi Umum:**
