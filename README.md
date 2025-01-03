@@ -26,12 +26,14 @@ Namun, kompleksitas data tersebut menghadirkan sejumlah tantangan. Perbedaan ska
 Untuk menghadapi tantangan ini, dilakukan berbagai langkah seperti pembersihan data, analisis statistik deskriptif, dan visualisasi untuk mengenali pola utama. Penelitian ini bertujuan untuk memahami hubungan antara fitur audio dengan jenis lagu secara lebih mendalam. Dengan begitu, diharapkan hasil penelitian dapat memberikan wawasan bagi musisi dalam menyusun strategi penciptaan lagu yang sesuai dengan selera pendengar.
 
 **1.1 Rumusan Masalah**
+
 Berdasarkan latar belakang yang telah dijelaskan, rumusan masalah yang menjadi fokus dalam penelitian ini adalah sebagai berikut:
 
 1. Sejauh mana tingkat energi lagu memengaruhi loudness pada berbagai genre musik di Spotify, dan apakah hubungan tersebut serupa di semua genre?
 2. Seberapa besar kontribusi instrumen akustik terhadap tingkat energi lagu, serta bagaimana perbedaannya berdasarkan era atau tahun perilisan musik?
    
 **1.2 Solusi Mengatasi Masalah**
+
 Solusi dalam penelitian ini difokuskan untuk menjawab rumusan masalah yang telah dirumuskan. Berdasarkan rumusan masalah tersebut, solusi yang diusulkan adalah sebagai berikut:  
 
 1. Melakukan eksplorasi data untuk memahami distribusi dari setiap fitur dalam dataset.  
@@ -39,6 +41,7 @@ Solusi dalam penelitian ini difokuskan untuk menjawab rumusan masalah yang telah
 3. Menganalisis dampak fitur akustik terhadap energi lagu, serta melihat variasinya berdasarkan periode atau tahun perilisan.
    
 **1.3 Teknik Analisis Yang diusulkan**
+
 Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:  
 
 1. Pembersihan data dan ringkasan awal untuk memahami struktur dan konten dataset.  
@@ -46,6 +49,7 @@ Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:
 3. Visualisasi data menggunakan histogram dan scatterplot untuk mengeksplorasi hubungan antara variabel.
    
 **1.4 Manfaat Analisis**
+
 Dalam mencari solusi, kami menerapkan beberapa teknik analisis berikut:  
 
 1. Pembersihan data dan ringkasan awal untuk memahami struktur dan konten dataset.  
