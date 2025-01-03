@@ -371,11 +371,19 @@ Berikut adalah korelasi antara energi dan acousticness berdasarkan tahun:
 1.   Hubungan negatif antara energi dan akustik masih terlihat, dengan nilai korelasi antara -0.522 hingga -0.580. Ini menunjukkan bahwa hubungan negatif antara kedua variabel ini tetap ada di era modern.
 2.   Pada tahun 2020, korelasi negatif tercatat cukup signifikan (-0.580), yang mengindikasikan bahwa lagu-lagu dengan elemen akustik cenderung memiliki energi lebih rendah dibandingkan dengan lagu-lagu yang didominasi elemen elektronik.
 
-   **Visualisasi**
-   1. Energy vs acousticness oleh year (all)
-        ![Energy_vs_acousticness_dari_Year](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year.png)
-   2. Energy vs acousticness oleh year (each)
-      ![Energy_vs_acousticness_dari_Year2](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year2.png)
+## Visualisasi
+
+1. **Energy vs Acousticness (Overall by Year)**  
+   Berikut adalah visualisasi hubungan antara energy dan acousticness untuk semua tahun:
+
+   ![Energy_vs_acousticness_dari_Year](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year.png)
+
+2. **Energy vs Acousticness (Each Year)**  
+   Berikut adalah visualisasi hubungan antara energy dan acousticness untuk setiap tahun:
+
+   ![Energy_vs_acousticness_dari_Year2](https://raw.githubusercontent.com/bubuu2k/Analisis_bigData/main/Assets_new/Energy_vs_acousticness_dari_Year2.png)
+
+      
       **Relasi Umum:**
 
 1.   Ditemukan korelasi negatif yang signifikan antara tingkat energi dan tingkat akustik suatu lagu.
